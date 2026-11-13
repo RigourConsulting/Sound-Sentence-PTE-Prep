@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="stkGlassGrad" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#E8F1F5" />
+      <stop offset="50%" stop-color="#C9D9E4" />
+      <stop offset="100%" stop-color="#8BA5B5" />
+    </linearGradient>
+    <linearGradient id="stkCoralGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F08D7A" />
+      <stop offset="100%" stop-color="#B94836" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Warm Porcelain Card -->
+  <rect width="512" height="512" rx="40" fill="#FCFAF6" stroke="#E7E1EA" stroke-width="2" />
+
+  <!-- Centered Emblem (scale=0.36, centered at x=256, y=140) -->
+  <g transform="translate(164, 35) scale(0.36)">
+    <path d="M 345,115 C 235,100 165,150 165,225 C 165,280 215,305 275,320 L 260,285 C 220,270 195,250 195,220 C 195,175 240,140 330,150 Z"
+          fill="url(#stkGlassGrad)" stroke="#30253F" stroke-width="3" />
+    <path d="M 165,397 C 275,412 345,362 345,287 C 345,232 295,207 235,192 L 250,227 C 290,242 315,262 315,292 C 315,337 270,372 180,362 Z"
+          fill="url(#stkGlassGrad)" stroke="#30253F" stroke-width="3" />
+    <path d="M 235,192 C 265,210 285,245 275,320 C 260,285 245,250 215,220 Z"
+          fill="url(#stkCoralGrad)" />
+    <path d="M 330,118 C 245,108 175,150 170,215" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" />
+    <path d="M 180,394 C 265,404 335,362 340,297" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Typography Stack -->
+  <text x="256" y="275" text-anchor="middle" font-family="'Newsreader', 'Georgia', serif" font-size="38" font-weight="600" fill="#30253F" letter-spacing="-0.3">Sound &amp; Sentence</text>
+
+  <!-- Descriptor Pill -->
+  <rect x="196" y="298" width="120" height="32" rx="16" fill="#FDF0ED" stroke="#B94836" stroke-width="1.5" />
+  <text x="256" y="320" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="16" font-weight="700" fill="#B94836" letter-spacing="1">PTE PREP</text>
+
+  <!-- Tagline -->
+  <text x="256" y="380" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="19" font-weight="500" fill="#6B5B7B" font-style="italic">Know what to practise next.</text>
+
+  <!-- Micro Footer -->
+  <text x="256" y="445" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="13" font-weight="400" fill="#9C8EA6" letter-spacing="0.5">INDEPENDENT PTE ACADEMIC PREPARATION</text>
+</svg>

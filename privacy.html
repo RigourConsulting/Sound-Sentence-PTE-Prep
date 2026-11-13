@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Sound & Sentence | PTE Prep</title>
+  <meta name="description" content="Privacy Policy for Sound & Sentence | PTE Prep. 100% offline data sovereignty, zero analytics, zero data harvesting. Published by Rigour Consulting Australia.">
+  <meta name="author" content="Rigour Consulting Australia">
+  <link rel="canonical" href="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/privacy.html">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="assets/favicon-32x32.png">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy — Sound & Sentence | PTE Prep">
+  <meta property="og:description" content="100% offline data sovereignty. All audio recordings, essay drafts, and diagnostic scores remain strictly on your local device.">
+  <meta property="og:url" content="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/privacy.html">
+  <meta property="og:image" content="assets/og_image.svg">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand-link" aria-label="Sound & Sentence PTE Prep Home">
+        <img src="assets/logo.svg" alt="Sound & Sentence S Emblem" class="brand-emblem" width="36" height="36">
+        <div>
+          <span class="brand-title">Sound &amp; Sentence</span>
+          <span class="brand-sep">|</span>
+          <span class="brand-descriptor">PTE PREP</span>
+        </div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html#skills" class="nav-link">Four Skills</a></li>
+          <li><a href="index.html#capabilities" class="nav-link">Capabilities</a></li>
+          <li><a href="index.html#showcase" class="nav-link">App Showcase</a></li>
+          <li><a href="privacy.html" class="nav-link active">Privacy</a></li>
+          <li><a href="terms.html" class="nav-link">Terms</a></li>
+          <li><a href="support.html" class="nav-link">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="doc-card">
+      <h1>Privacy Policy</h1>
+      <div class="doc-meta">
+        <strong>Effective Date:</strong> 9 November 2026 &bull; 
+        <strong>Entity:</strong> Rigour Consulting Australia &bull; 
+        <strong>Contact:</strong> rigour.consulting@gmail.com &bull; 
+        <strong>Version:</strong> 2.0 (Brand Release)
+      </div>
+
+      <div class="callout">
+        <h4>Core Privacy Commitment: Local-First Data Sovereignty</h4>
+        <p>
+          <strong>Sound &amp; Sentence | PTE Prep</strong> is engineered on a strict local-first architecture. 
+          Your voice recordings, written essays, test responses, diagnostic scores, and practice history are stored 
+          exclusively on your physical device. We operate no user tracking servers, collect no telemetry, and harvest no personal data.
+        </p>
+      </div>
+
+      <h2>1. About This Policy &amp; Publisher Identity</h2>
+      <p>
+        This Privacy Policy explains how <strong>Rigour Consulting Australia</strong> ("we", "us", "our") manages information in connection with the 
+        <strong>Sound &amp; Sentence | PTE Prep</strong> mobile application ("the Application"). We are committed to protecting candidate privacy 
+        in accordance with the <em>Australian Privacy Principles</em> (APPs) set out in the <em>Privacy Act 1988</em> (Cth), the EU <em>General Data Protection Regulation</em> (GDPR), 
+        and applicable international data sovereignty standards.
+      </p>
+
+      <h2>2. Categories of Data Handled</h2>
+      <p>The Application processes the following categories of data strictly within the local Android operating system sandbox:</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Data Category</th>
+            <th>Examples</th>
+            <th>Storage Location &amp; Scope</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Microphone Audio Recordings</strong></td>
+            <td>Spoken takes for Read Aloud, Repeat Sentence, Describe Image, Re-tell Lecture, Short Questions.</td>
+            <td>Local private cache (<code>context.cacheDir</code>). Never transmitted across network interfaces.</td>
+          </tr>
+          <tr>
+            <td><strong>Written Text Responses</strong></td>
+            <td>Candidate summaries and essays for Summarize Written Text and Write Essay.</td>
+            <td>Local private internal storage (<code>context.filesDir</code>).</td>
+          </tr>
+          <tr>
+            <td><strong>Diagnostic Scores &amp; History</strong></td>
+            <td>Form 1 examination results, objective task accuracy, rubrics, and drill timestamps.</td>
+            <td>Atomic JSON persistence files on local device storage.</td>
+          </tr>
+          <tr>
+            <td><strong>Application Settings</strong></td>
+            <td>Audio volume preferences, dark mode selection, and onboarding acknowledgements.</td>
+            <td>Local Android DataStore / SharedPreferences.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3. Microphone Permission (RECORD_AUDIO)</h2>
+      <p>
+        The Application requests the Android <code>RECORD_AUDIO</code> runtime permission solely to enable candidates to capture their 
+        spoken responses for immediate playback and benchmark comparison during speaking practice drills and mock examinations.
+      </p>
+      <ul>
+        <li>Audio capture occurs only when the candidate explicitly initiates a recording countdown or presses the record button.</li>
+        <li>Microphone input is encoded locally in uncompressed PCM or compressed AAC format.</li>
+        <li>Audio is never streamed to external speech-to-text APIs or remote evaluation services.</li>
+        <li>Candidates may revoke the microphone permission at any time in Android System Settings without affecting non-speaking tasks.</li>
+      </ul>
+
+      <h2>4. Zero Third-Party Telemetry &amp; Trackers</h2>
+      <p>
+        Unlike typical educational and commercial mobile software, <strong>Sound &amp; Sentence | PTE Prep</strong> is built without third-party tracking components:
+      </p>
+      <ul>
+        <li><strong>No Analytics SDKs:</strong> No Google Analytics for Firebase, Mixpanel, Amplitude, or Flurry.</li>
+        <li><strong>No Crash Reporting SDKs:</strong> No Firebase Crashlytics or Sentry sending stack traces to third parties.</li>
+        <li><strong>No Advertising Networks:</strong> Zero ads, banner trackers, or advertising IDs (AAID/IDFA).</li>
+        <li><strong>No Account Creation:</strong> No sign-in with Google, Facebook, or email required.</li>
+      </ul>
+
+      <h2>5. Cloud Backup Exclusions</h2>
+      <p>
+        To prevent inadvertent cloud synchronization of candidate voice recordings and test sessions, 
+        the Application implements custom Android backup descriptors (<code>res/xml/backup_rules.xml</code> and <code>res/xml/data_extraction_rules.xml</code>). 
+        All audio caches and session journals are explicitly excluded from Google Drive automated device backups.
+      </p>
+
+      <h2>6. Data Retention &amp; User Control</h2>
+      <p>
+        Because all records reside locally on your device, you have complete and exclusive control over your data:
+      </p>
+      <ul>
+        <li><strong>In-App Reset:</strong> You can clear practice history or individual drill takes from the in-app Settings screen.</li>
+        <li><strong>Operating System Deletion:</strong> Navigating to <em>Android Settings &rarr; Apps &rarr; Sound &amp; Sentence &rarr; Storage &rarr; Clear Storage</em> immediately and permanently destroys all recordings and scores.</li>
+        <li><strong>Uninstalling the App:</strong> Removing the Application permanently deletes all application-private storage.</li>
+      </ul>
+
+      <h2>7. Children's Privacy</h2>
+      <p>
+        The Application is designed for adult candidates and students preparing for the academic English examination. We do not knowingly collect, 
+        solicit, or store personal information from children under the age of 16.
+      </p>
+
+      <h2>8. Changes to this Privacy Policy</h2>
+      <p>
+        If we update this Privacy Policy, the revised version will be published on this website with an updated Effective Date. 
+        Because the Application operates entirely offline, updates to policy terms will also accompany new application release builds.
+      </p>
+
+      <h2>9. Contact Us</h2>
+      <p>
+        For inquiries regarding our privacy architecture, data sovereignty principles, or compliance under the Australian Privacy Act:
+      </p>
+      <p>
+        <strong>Rigour Consulting Australia</strong><br>
+        Email: <a href="mailto:rigour.consulting@gmail.com" style="color: var(--coral); font-weight: 600;">rigour.consulting@gmail.com</a><br>
+        Melbourne, Victoria, Australia
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col" style="flex: 2; min-width: 260px;">
+        <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.75rem;">
+          <img src="assets/logo.svg" alt="Sound & Sentence Logo" width="28" height="28">
+          <span style="font-family: var(--font-serif); font-weight: 700; color: #FFFFFF; font-size: 1.15rem;">
+            Sound &amp; Sentence <span style="color: var(--coral);">|</span> PTE Prep
+          </span>
+        </div>
+        <p style="font-size: 0.9rem; color: #C9D9E4; max-width: 380px; line-height: 1.5;">
+          Evidence-based PTE Academic preparation. Know what to practise next. 
+          Published by Rigour Consulting Australia.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#skills">Four Skills</a></li>
+          <li><a href="index.html#capabilities">Capabilities</a></li>
+          <li><a href="index.html#showcase">App Showcase</a></li>
+          <li><a href="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/">GitHub Pages Portal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Governance</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="support.html">Support &amp; FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Publisher</h4>
+        <ul>
+          <li style="color: #C9D9E4; font-size: 0.9rem;">Rigour Consulting Australia</li>
+          <li><a href="mailto:rigour.consulting@gmail.com">rigour.consulting@gmail.com</a></li>
+          <li style="color: #867A93; font-size: 0.85rem; margin-top: 0.5rem;">Melbourne, Australia</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Rigour Consulting Australia. All rights reserved.</p>
+      <p style="margin-top: 0.35rem; font-size: 0.8rem;">
+        PTE Academic is a registered trademark of Pearson Education, Inc. Sound &amp; Sentence is an independent preparation platform.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
