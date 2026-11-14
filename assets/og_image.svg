@@ -1,82 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FCFAF6" />
-      <stop offset="100%" stop-color="#F2EEF5" />
-    </linearGradient>
-    <linearGradient id="ogGlassGrad" x1="0.2" y1="0" x2="0.8" y2="1">
-      <stop offset="0%" stop-color="#E8F1F5" />
-      <stop offset="50%" stop-color="#C9D9E4" />
-      <stop offset="100%" stop-color="#8BA5B5" />
-    </linearGradient>
-    <linearGradient id="ogCoralGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F08D7A" />
-      <stop offset="100%" stop-color="#B94836" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" fill="none">
+  <rect width="1200" height="630" fill="#F8F7F3"/>
+  <rect x="40" y="40" width="1120" height="550" rx="20" fill="#FFFFFF" stroke="#D9E0E3" stroke-width="2"/>
+  
+  <!-- Subtle accent bar -->
+  <rect x="40" y="40" width="1120" height="8" rx="4" fill="#365A78"/>
 
-  <!-- Background -->
-  <rect width="1200" height="630" fill="url(#bgGrad)" />
-
-  <!-- Left Accent Structural Border in Aubergine Ink -->
-  <rect x="0" y="0" width="16" height="630" fill="#30253F" />
-  <rect x="16" y="0" width="8" height="630" fill="#B94836" />
-
-  <!-- Emblem on Right -->
-  <g transform="translate(730, 80) scale(0.9)">
-    <!-- Aura -->
-    <circle cx="256" cy="256" r="220" fill="#C9D9E4" opacity="0.25" filter="blur(40px)" />
-    <!-- Upper Ribbon -->
-    <path d="M 345,115 C 235,100 165,150 165,225 C 165,280 215,305 275,320 L 260,285 C 220,270 195,250 195,220 C 195,175 240,140 330,150 Z"
-          fill="url(#ogGlassGrad)" stroke="#30253F" stroke-width="4" />
-    <!-- Lower Ribbon -->
-    <path d="M 165,397 C 275,412 345,362 345,287 C 345,232 295,207 235,192 L 250,227 C 290,242 315,262 315,292 C 315,337 270,372 180,362 Z"
-          fill="url(#ogGlassGrad)" stroke="#30253F" stroke-width="4" />
-    <!-- Coral Seam -->
-    <path d="M 235,192 C 265,210 285,245 275,320 C 260,285 245,250 215,220 Z"
-          fill="url(#ogCoralGrad)" />
-    <!-- Edge Highlight -->
-    <path d="M 330,118 C 245,108 175,150 170,215" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" />
-    <path d="M 180,394 C 265,404 335,362 340,297" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" />
+  <!-- Logo Mark at Left -->
+  <g transform="translate(100, 140) scale(2.6)">
+    <rect width="48" height="48" rx="10" fill="#EAF0F3"/>
+    <rect x="0.5" y="0.5" width="47" height="47" rx="9.5" stroke="#D9E0E3"/>
+    <path d="M32 16 C32 11.5 28.5 8 24 8 C18.5 8 15 12 15 16.5 C15 21.5 19 23.5 24 25 C29 26.5 33 28.5 33 33 C33 37.5 29 40 24 40 C19 40 15 36.5 15 32" 
+          stroke="#24303B" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 17 C22 14 23 12 24 12 C25 12 26 14 26 17 L26 31 C26 34 25 36 24 36 C23 36 22 34 22 31 Z" 
+          fill="#9F845F"/>
   </g>
 
-  <!-- Left Content Branding -->
-  <g transform="translate(80, 110)">
-    <!-- Badge -->
-    <rect x="0" y="0" width="180" height="36" rx="18" fill="#FDF0ED" stroke="#B94836" stroke-width="1.5" />
-    <text x="90" y="24" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="700" fill="#B94836" letter-spacing="1.2">PTE ACADEMIC PREP</text>
+  <!-- Typography -->
+  <text x="260" y="195" font-family="'Source Sans 3', sans-serif" font-size="20" font-weight="700" fill="#365A78" letter-spacing="2">INDEPENDENT PTE ACADEMIC PREPARATION</text>
+  <text x="260" y="275" font-family="'Newsreader', Georgia, serif" font-size="64" font-weight="700" fill="#24303B" letter-spacing="-1">Sound &amp; Sentence</text>
+  <text x="750" y="270" font-family="'Newsreader', Georgia, serif" font-size="52" font-weight="400" fill="#9F845F">|</text>
+  <text x="780" y="270" font-family="'Source Sans 3', sans-serif" font-size="38" font-weight="700" fill="#365A78" letter-spacing="3">PTE PREP</text>
 
-    <!-- Main Title -->
-    <text x="0" y="115" font-family="'Newsreader', 'Georgia', serif" font-size="64" font-weight="700" fill="#30253F" letter-spacing="-1">Sound &amp; Sentence</text>
+  <text x="260" y="340" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="34" font-weight="500" fill="#9F845F">Know what to practise next.</text>
 
-    <!-- Tagline -->
-    <text x="0" y="180" font-family="'Source Sans 3', sans-serif" font-size="32" font-weight="600" fill="#B94836">Know what to practise next.</text>
+  <text x="260" y="420" font-family="'Source Sans 3', sans-serif" font-size="24" fill="#4A5561" max-width="800">
+    A focused Android application for speaking, writing, reading and listening practice.
+  </text>
+  <text x="260" y="460" font-family="'Source Sans 3', sans-serif" font-size="22" fill="#4A5561">
+    Honest feedback, authentic task timing, and complete offline privacy.
+  </text>
 
-    <!-- Subtitle description -->
-    <text x="0" y="240" font-family="'Source Sans 3', sans-serif" font-size="22" font-weight="400" fill="#475569">
-      <tspan x="0" dy="0">High-fidelity 100% offline Android preparation platform.</tspan>
-      <tspan x="0" dy="32">22 task types, full 65-item mock exam, and transparent psychometrics.</tspan>
-    </text>
-
-    <!-- Four Skill Pills -->
-    <g transform="translate(0, 315)">
-      <!-- Speaking -->
-      <rect x="0" y="0" width="130" height="42" rx="8" fill="#FDF0ED" stroke="#E0C4BE" />
-      <text x="65" y="27" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="600" fill="#B94836">Speaking</text>
-      <!-- Writing -->
-      <rect x="145" y="0" width="130" height="42" rx="8" fill="#F0F5F8" stroke="#CAD6DE" />
-      <text x="210" y="27" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="600" fill="#4B6B82">Writing</text>
-      <!-- Reading -->
-      <rect x="290" y="0" width="130" height="42" rx="8" fill="#F5F2F7" stroke="#D8D0DE" />
-      <text x="355" y="27" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="600" fill="#6A5A7A">Reading</text>
-      <!-- Listening -->
-      <rect x="435" y="0" width="130" height="42" rx="8" fill="#FCF7EB" stroke="#E8DBB8" />
-      <text x="500" y="27" text-anchor="middle" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="600" fill="#8C6E2D">Listening</text>
-    </g>
-
-    <!-- Micro Footer -->
-    <text x="0" y="420" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="500" fill="#64748B">
-      Rigour Consulting Australia &bull; rigour.consulting@gmail.com
-    </text>
+  <!-- Badges -->
+  <g transform="translate(260, 500)">
+    <rect width="180" height="42" rx="8" fill="#EAF0F3" stroke="#D9E0E3"/>
+    <text x="90" y="26" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="600" fill="#24303B" text-anchor="middle">Four Skills</text>
   </g>
+  <g transform="translate(460, 500)">
+    <rect width="200" height="42" rx="8" fill="#EAF0F3" stroke="#D9E0E3"/>
+    <text x="100" y="26" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="600" fill="#24303B" text-anchor="middle">22 Task Types</text>
+  </g>
+  <g transform="translate(680, 500)">
+    <rect width="220" height="42" rx="8" fill="#EAF0F3" stroke="#D9E0E3"/>
+    <text x="110" y="26" font-family="'Source Sans 3', sans-serif" font-size="15" font-weight="600" fill="#24303B" text-anchor="middle">100% Offline Core</text>
+  </g>
+
+  <!-- Publisher Footer -->
+  <text x="1100" y="555" font-family="'Source Sans 3', sans-serif" font-size="16" fill="#4A5561" text-anchor="end">
+    Published by Rigour Consulting Australia &bull; Melbourne
+  </text>
 </svg>

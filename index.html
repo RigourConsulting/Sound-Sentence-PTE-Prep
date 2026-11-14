@@ -3,298 +3,362 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sound & Sentence | PTE Prep — Evidence-Based PTE Academic Preparation</title>
-  <meta name="description" content="Independent PTE Academic preparation app with 100% offline diagnostic architecture, 22 task types, and Form 1 full mock examination. Know what to practise next.">
+  <title>Sound &amp; Sentence | PTE Prep &mdash; Independent PTE Academic Preparation</title>
+  <meta name="description" content="Prepare for PTE Academic with a clearer plan. Focused speaking, writing, reading and listening practice with honest feedback and local on-device storage.">
   <meta name="author" content="Rigour Consulting Australia">
   <link rel="canonical" href="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="alternate icon" type="image/png" href="assets/favicon-32x32.png">
   
-  <!-- Open Graph / Twitter Card -->
+  <!-- Open Graph / Social Cards -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Sound & Sentence | PTE Prep">
-  <meta property="og:description" content="Know what to practise next. Independent PTE Academic preparation app with 100% offline diagnostic core and full 65-item mock examination.">
+  <meta property="og:title" content="Sound &amp; Sentence | PTE Prep">
+  <meta property="og:description" content="Know what to practise next. Independent PTE Academic preparation app with authentic task timing and on-device privacy.">
   <meta property="og:url" content="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/">
-  <meta property="og:image" content="assets/og_image.svg">
+  <meta property="og:image" content="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/assets/og_image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sound & Sentence | PTE Prep">
-  <meta name="twitter:description" content="Know what to practise next. Independent PTE Academic preparation app with 100% offline diagnostic core and full 65-item mock examination.">
-  <meta name="twitter:image" content="assets/og_image.svg">
+  <meta name="twitter:title" content="Sound &amp; Sentence | PTE Prep">
+  <meta name="twitter:description" content="Know what to practise next. Independent PTE Academic preparation app with authentic task timing and on-device privacy.">
+  <meta name="twitter:image" content="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/assets/og_image.png">
+
+  <!-- Schema.org Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Sound & Sentence | PTE Prep",
+        "operatingSystem": "Android",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "AUD"
+        },
+        "description": "Independent PTE Academic preparation application providing 20 core PTE Academic task types plus 2 additional speaking formats (22 total), audio stimuli, voice recording, local scoring, and a representative 65-item mock examination.",
+        "author": {
+          "@type": "Organization",
+          "name": "Rigour Consulting Australia",
+          "email": "rigour.consulting@gmail.com"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "url": "https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/",
+        "name": "Sound & Sentence | PTE Prep",
+        "description": "Independent PTE Academic preparation platform with authentic timing and on-device privacy.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Rigour Consulting Australia"
+        }
+      }
+    ]
+  }
+  </script>
 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Section 1: Header & Navigation -->
+  <!-- Header & Navigation -->
   <header>
     <div class="nav-container">
-      <a href="index.html" class="brand-link" aria-label="Sound & Sentence PTE Prep Home">
-        <img src="assets/logo.svg" alt="Sound & Sentence S Emblem" class="brand-emblem" width="36" height="36">
+      <a href="index.html" class="brand-link" aria-label="Sound &amp; Sentence Home">
+        <img src="assets/logo.svg" alt="Sound &amp; Sentence Emblem" class="brand-emblem" width="34" height="34">
         <div>
-          <span class="brand-title">Sound &amp; Sentence</span>
-          <span class="brand-sep">|</span>
+          <span class="brand-name">Sound &amp; Sentence</span>
+          <span class="brand-divider">|</span>
           <span class="brand-descriptor">PTE PREP</span>
         </div>
       </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" onclick="document.querySelector('nav ul').classList.toggle('open')">&#9776;</button>
       <nav>
         <ul>
-          <li><a href="index.html#skills" class="nav-link">Four Skills</a></li>
-          <li><a href="index.html#capabilities" class="nav-link">Capabilities</a></li>
-          <li><a href="index.html#showcase" class="nav-link">App Showcase</a></li>
-          <li><a href="privacy.html" class="nav-link">Privacy</a></li>
-          <li><a href="terms.html" class="nav-link">Terms</a></li>
-          <li><a href="support.html" class="nav-link">Support</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#four-skills">Four skills</a></li>
+          <li><a href="#inside-the-app">Inside the app</a></li>
+          <li><a href="support.html">Support</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Section 2: Hero Section -->
+  <!-- Section 1: Hero -->
   <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-pill">Independent Assessment Platform</div>
-      <h1>Evidence-Based PTE Academic Preparation</h1>
-      <div class="hero-tagline">Know what to practise next.</div>
-      <p class="hero-copy">
-        A deliberate, psychometrically grounded Android preparation platform built with Kotlin Multiplatform. 
-        Designed for candidates who demand honest feedback, reproducible diagnostics, and complete data privacy.
-      </p>
-      <div style="margin-bottom: 2rem;">
-        <a href="support.html#getting-started" class="btn-coral">Candidate Guide &amp; Installation</a>
-      </div>
-      <div class="hero-badges">
-        <span class="badge">&#128274; 100% Offline Architecture</span>
-        <span class="badge">&#9989; Complete 65-Item Form 1 Mock Exam</span>
-        <span class="badge">&#127897; 22 PTE Task Types</span>
-        <span class="badge">&#128100; Honest Scoring &mdash; No Synthetic Hallucinations</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section 3: Intro & Pedagogical Mission -->
-  <section class="container">
-    <div class="section-head">
-      <h2>Transforming Audio Practice into Measured Competence</h2>
-      <p>
-        Most test-preparation apps rely on superficial gamification or opaque "AI" scores that fluctuate randomly across attempts. 
-        <strong>Sound &amp; Sentence | PTE Prep</strong> is engineered on applied linguistics, reproducible rubric assessment, and 
-        rigorous denominator-isolated analytics.
-      </p>
-    </div>
-
-    <!-- Section 4: Four Skills. One Focused Approach. -->
-    <div id="skills" class="section-head" style="margin-top: 4rem; margin-bottom: 2rem;">
-      <h2>Four skills. One focused approach.</h2>
-      <p>Every language skill is assessed through targeted diagnostic rubrics and authentic academic prompts.</p>
-    </div>
-
-    <div class="skills-grid">
-      <!-- Speaking -->
-      <div class="skill-card speaking">
-        <div class="skill-icon">&#127897;</div>
-        <h3>Speaking</h3>
-        <p>
-          Master Read Aloud, Repeat Sentence, Describe Image, Re-tell Lecture, and Answer Short Question. 
-          Record takes locally with instant playback, benchmark audio comparison, and verifiable self-assessment rubrics.
+    <div class="hero-grid">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Independent PTE Academic preparation</span>
+        <h1>Prepare for PTE Academic with a clearer plan.</h1>
+        <div class="hero-tagline">Know what to practise next.</div>
+        <p class="hero-copy">
+          Build your confidence across speaking, writing, reading and listening. 
+          Practise with focused exercises, review your responses and see where to concentrate your efforts.
         </p>
-      </div>
-
-      <!-- Writing -->
-      <div class="skill-card writing">
-        <div class="skill-icon">&#9997;</div>
-        <h3>Writing</h3>
-        <p>
-          Tackle Summarize Written Text and Write Essay with strict real-time word count monitors, 
-          deterministic spelling checking, punctuation verification, and formal paragraph structure feedback.
-        </p>
-      </div>
-
-      <!-- Reading -->
-      <div class="skill-card reading">
-        <div class="skill-icon">&#128218;</div>
-        <h3>Reading</h3>
-        <p>
-          Sharpen reading comprehension with Reading &amp; Writing Fill in the Blanks, Multiple Choice (Single and Multiple), 
-          and Re-order Paragraphs drawn from authentic academic passages across humanities, natural sciences, and social sciences.
-        </p>
-      </div>
-
-      <!-- Listening -->
-      <div class="skill-card listening">
-        <div class="skill-icon">&#127911;</div>
-        <h3>Listening</h3>
-        <p>
-          Train acoustic comprehension across Summarize Spoken Text, Write From Dictation, Highlight Incorrect Words, 
-          Select Missing Word, and Fill in the Blanks with authentic single-play audio timing.
-        </p>
-      </div>
-    </div>
-
-    <!-- Section 5: Genuine App Capabilities -->
-    <div id="capabilities" class="section-head" style="margin-top: 4rem;">
-      <h2>Engineered for Examination Parity</h2>
-      <p>A full suite of assessment tools designed to mirror official test conditions.</p>
-    </div>
-
-    <div class="features-grid">
-      <div class="feature-box">
-        <h3>22 Comprehensive Task Packs</h3>
-        <p>
-          Complete coverage of all 22 official PTE Academic task formats, including core integrated skills, 
-          timed response gates, and authentic preparation countdowns.
-        </p>
-      </div>
-      <div class="feature-box">
-        <h3>Pure Kotlin Scoring Engine</h3>
-        <p>
-          Deterministic scoring algorithms shared between Android and Kotlin Multiplatform core. 
-          Scores are mathematically auditable with zero server roundtrips.
-        </p>
-      </div>
-      <div class="feature-box">
-        <h3>Denominator-Isolated Analytics</h3>
-        <p>
-          Skill indices are calculated strictly against relevant questions, preventing unattempted tasks 
-          from polluting your objective accuracy and form compliance metrics.
-        </p>
-      </div>
-      <div class="feature-box">
-        <h3>Standardized 65-Item Mock Exam</h3>
-        <p>
-          Experience a full, timed examination simulation (Form 1) covering Speaking, Writing, Reading, 
-          and Listening with authentic sequential section constraints and single-play audio.
-        </p>
-      </div>
-      <div class="feature-box">
-        <h3>Zero Data Harvesting</h3>
-        <p>
-          All audio recordings, essay drafts, test answers, and diagnostic scores reside strictly in private 
-          app storage on your local device. Nothing is uploaded to remote servers.
-        </p>
-      </div>
-      <div class="feature-box">
-        <h3>Accessible &amp; High Contrast</h3>
-        <p>
-          Crafted with WCAG 2.2 AA compliant typography, 48dp touch targets, clear screen-reader 
-          semantics, and high-contrast aubergine, porcelain, and red coral color tokens.
-        </p>
-      </div>
-    </div>
-
-    <!-- Section 6: Transparent Scoring & Feedback -->
-    <div class="callout">
-      <h4>Transparent Scoring Disclosure: Zero Synthetic Hallucinations</h4>
-      <p>
-        Unlike third-party apps that claim to provide an "official Pearson AI score" by passing candidate recordings 
-        through arbitrary cloud APIs, <strong>Sound &amp; Sentence | PTE Prep</strong> maintains absolute honesty:
-        spoken responses are recorded and played back locally with acoustic reference tracks and transparent rubric benchmarks. 
-        Objective tasks (Reading blanks, Writing form, Dictation, Listening multiple-choice) are evaluated deterministically 
-        using exact string-matching and lexis-distance metrics.
-      </p>
-    </div>
-  </section>
-
-  <!-- Section 7: App Showcase -->
-  <section id="showcase" class="showcase-section">
-    <div class="showcase-inner">
-      <div class="showcase-grid">
-        <div class="showcase-text">
-          <h2>An Android Interface Designed for Focus</h2>
-          <p>
-            Experience an interface crafted around typography, visual clarity, and calm productivity. 
-            The Aubergine Ink, Warm Porcelain, and Red Coral palette eliminates cognitive clutter, 
-            allowing you to focus entirely on listening comprehension, pronunciation, and lexical precision.
-          </p>
-          <p>
-            Review your dashboard metrics, jump directly into skill drills, or launch a timed mock exam 
-            with immediate visual feedback and zero distractions.
-          </p>
+        <div class="hero-actions">
+          <a href="#how-it-works" class="btn-primary">Explore the practice</a>
+          <a href="#inside-the-app" class="btn-secondary">See the app</a>
         </div>
-        <div class="showcase-screens">
-          <div class="phone-frame">
-            <img src="assets/screen_home.png" alt="Sound & Sentence Dashboard Screen" width="240" height="533">
+      </div>
+      <div class="hero-phone-wrap">
+        <figure class="phone-frame">
+          <img src="assets/screen_home.png" alt="Sound &amp; Sentence Android app dashboard interface" width="260" height="563">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: How It Works -->
+  <section id="how-it-works" class="container">
+    <div class="section-head center">
+      <h2>How it works</h2>
+      <p>A simple three-step approach designed to keep your preparation structured and measurable.</p>
+    </div>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h3>Choose what to practise</h3>
+        <p>Explore tasks by individual skill or select a timed preparation exercise covering authentic academic prompt formats.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h3>Complete the exercise</h3>
+        <p>Listen, speak, read or write using task-appropriate controls, authentic countdown timers and single-play audio constraints.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h3>Review your attempt</h3>
+        <p>See what you answered correctly, revisit your recorded takes against benchmark audio, and identify specific areas for further practice.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Four Skills -->
+  <section id="four-skills" style="background: var(--color-morning-mist); border-top: 1px solid var(--color-border-grey); border-bottom: 1px solid var(--color-border-grey);">
+    <div class="container">
+      <div class="section-head center">
+        <h2>Four skills. One focused approach.</h2>
+        <p>Each language skill is addressed through targeted exercise formats reflecting official test structures.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Speaking -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+            </svg>
           </div>
-          <div class="phone-frame">
-            <img src="assets/screen_drills.png" alt="Sound & Sentence Drills Screen" width="240" height="533">
+          <h3>Speaking</h3>
+          <p>Practise speaking tasks, record your responses and listen again to review your delivery, pronunciation and pacing.</p>
+        </div>
+
+        <!-- Writing -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
+              <path d="m15 5 4 4"/>
+            </svg>
           </div>
+          <h3>Writing</h3>
+          <p>Work on summaries and essays with task-specific timing, real-time word-count counters and clear Form guidance.</p>
+        </div>
+
+        <!-- Reading -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+              <path d="M6 6h10"/>
+              <path d="M6 10h10"/>
+            </svg>
+          </div>
+          <h3>Reading</h3>
+          <p>Develop accuracy through comprehension, fill-in-the-blank and paragraph-ordering exercises from authentic academic passages.</p>
+        </div>
+
+        <!-- Listening -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+            </svg>
+          </div>
+          <h3>Listening</h3>
+          <p>Practise understanding spoken English, identifying incorrect words, completing dictation tasks and following academic lectures.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 8 & 9: Release Status & Privacy Summary -->
+  <!-- Section 4: Practice and Mock Examinations -->
   <section class="container">
     <div class="section-head">
-      <h2>Data Sovereignty &amp; System Architecture</h2>
-      <p>Your preparation data belongs exclusively to you.</p>
+      <h2>Practice and mock examinations</h2>
+      <p>Candidates need both targeted skill drills and realistic examination simulations to prepare effectively.</p>
     </div>
 
-    <div class="features-grid">
-      <div class="feature-box">
-        <h3>Local-First Persistence</h3>
-        <p>
-          All session records, practice takes, and exam states are saved atomically to on-device JSON files. 
-          Corrupted files are safely recovered via backup journals, guaranteeing zero data loss.
-        </p>
+    <div class="dual-panel">
+      <div class="panel-box">
+        <h3>Targeted Practice Drills</h3>
+        <p>Focus on individual task types when you want to build specific habits or address known weak spots.</p>
+        <ul>
+          <li>20 core PTE Academic task types plus 2 additional speaking formats (22 total)</li>
+          <li>Replay reference audio to train your ear and pronunciation</li>
+          <li>Repeat individual questions until you feel confident</li>
+          <li>Immediate answer verification on objective questions</li>
+        </ul>
       </div>
-      <div class="feature-box">
-        <h3>Backup Exclusions</h3>
-        <p>
-          Audio recordings and exam transcripts are explicitly excluded from unencrypted Google Drive auto-backups 
-          via custom XML backup rules, protecting your sensitive voice recordings.
-        </p>
+
+      <div class="panel-box">
+        <h3>Timed Mock Examination</h3>
+        <p>Experience a full, sequential simulation to test your pacing and stamina under authentic test conditions.</p>
+        <ul>
+          <li>Representative Form 1 with 65 sequenced questions</li>
+          <li>Section 1: Speaking &amp; Writing (33 items)</li>
+          <li>Section 2: Reading (14 items)</li>
+          <li>Section 3: Listening (18 items)</li>
+          <li>Strict single-play audio constraints and timed gates</li>
+        </ul>
       </div>
-      <div class="feature-box">
-        <h3>No Tracking &amp; No SDKs</h3>
+    </div>
+  </section>
+
+  <!-- Section 5: Feedback That Helps -->
+  <section style="background: var(--color-white); border-top: 1px solid var(--color-border-grey); border-bottom: 1px solid var(--color-border-grey);">
+    <div class="container">
+      <div class="section-head">
+        <h2>Understand your practice, not just your points.</h2>
+        <p>Honest, transparent feedback helps you learn more effectively than arbitrary scores that fluctuate unpredictably.</p>
+      </div>
+
+      <div class="callout">
+        <h4>How feedback works in Sound &amp; Sentence</h4>
         <p>
-          The application contains no Google Analytics, no Firebase Crashlytics, no Facebook SDKs, 
-          and zero ad-network libraries. It functions seamlessly in airplane mode.
+          <strong>Objective tasks:</strong> Reading blanks, writing dictation and multiple-choice questions are checked directly against verified answer keys with clear explanations.<br><br>
+          <strong>Speaking tasks:</strong> Your voice is recorded locally and played back immediately alongside reference benchmark audio, allowing you to self-evaluate pronunciation and fluency against official Pearson criteria.<br><br>
+          <strong>Writing tasks:</strong> Word count, sentence structure (such as the single-sentence rule for summaries) and lexis are verified deterministically without vague automated grading.
         </p>
       </div>
     </div>
+  </section>
 
-    <!-- Section 10: Support & Contact Banner -->
-    <div class="contact-banner">
-      <h2>Developed by Rigour Consulting Australia</h2>
-      <p>Have questions about task design, institutional licenses, or accessibility feedback?</p>
-      <a href="mailto:rigour.consulting@gmail.com" class="btn-coral">Contact Our Assessment Team</a>
+  <!-- Section 6: Inside the App -->
+  <section id="inside-the-app" class="container">
+    <div class="section-head center">
+      <h2>Inside the app</h2>
+      <p>An interface designed for calm study, clear typography and distraction-free learning.</p>
     </div>
 
-    <!-- Section 11: Pearson Disclaimer -->
-    <div class="callout" style="border-left-color: var(--aubergine);">
-      <h4>Independent Preparation Notice</h4>
-      <p>
-        PTE Academic&trade; is a registered trademark of Pearson Education, Inc. 
-        <strong>Sound &amp; Sentence | PTE Prep</strong> is an independent software application developed by Rigour Consulting Australia. 
-        This application is not affiliated with, endorsed by, or sponsored by Pearson Education, Inc. or any of its subsidiaries.
+    <div class="showcase-grid">
+      <div class="showcase-item">
+        <figure class="phone-frame">
+          <img src="assets/screen_home.png" alt="Home Study Dashboard" width="260" height="563">
+        </figure>
+        <figcaption>
+          <strong>Home Study Dashboard</strong>
+          Overview of practice history, four-skill entry points and study progress.
+        </figcaption>
+      </div>
+
+      <div class="showcase-item">
+        <figure class="phone-frame">
+          <img src="assets/screen_drills.png" alt="Task Catalogue" width="260" height="563">
+        </figure>
+        <figcaption>
+          <strong>Task Catalogue</strong>
+          Browse and filter 20 core PTE Academic task types plus 2 additional speaking formats by skill section.
+        </figcaption>
+      </div>
+
+      <div class="showcase-item">
+        <figure class="phone-frame">
+          <img src="assets/screen_settings.png" alt="Settings &amp; Privacy Screen" width="260" height="563">
+        </figure>
+        <figcaption>
+          <strong>Settings &amp; Data Control</strong>
+          Manage local recordings, reset practice history and review governance policies.
+        </figcaption>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Privacy and Learner Control -->
+  <section style="background: var(--color-morning-mist); border-top: 1px solid var(--color-border-grey); border-bottom: 1px solid var(--color-border-grey);">
+    <div class="container">
+      <div class="section-head">
+        <h2>Privacy and learner control</h2>
+        <p>Your practice data and voice recordings belong to you, not an advertising network.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <h3>On-Device Storage</h3>
+          <p>Your audio recordings, essay drafts and practice history remain on your local Android device inside the application sandbox.</p>
+        </div>
+
+        <div class="step-card">
+          <h3>No Advertising or Analytics SDKs</h3>
+          <p>The app contains no third-party advertising networks or user analytics libraries. Core practice drills and mock exams work offline after installation.</p>
+        </div>
+
+        <div class="step-card">
+          <h3>Full Deletion Controls</h3>
+          <p>You can delete your recorded takes or reset your practice database at any time directly from the in-app settings screen.</p>
+        </div>
+      </div>
+
+      <p style="margin-top: 1.5rem; font-size: 0.95rem; color: var(--color-soft-graphite);">
+        For full details on data handling and backup rules, read our <a href="privacy.html" style="color: var(--color-slate-blue); font-weight: 600;">Privacy Policy</a>.
       </p>
     </div>
   </section>
 
-  <!-- Section 12: Footer -->
+  <!-- Section 8: Availability and Next Action -->
+  <section class="container">
+    <div class="status-card">
+      <h3>Release &amp; Testing Status</h3>
+      <p>
+        <strong>Current status:</strong> The application is currently undergoing active candidate preview and external device testing 
+        on modern Android hardware, including the Samsung Galaxy A56 and Pixel devices. 
+        General public availability on Google Play is scheduled following the conclusion of external testing.
+      </p>
+      <div style="margin-top: 1.25rem;">
+        <a href="support.html#getting-started" class="btn-primary">View Candidate Testing Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: Footer -->
   <footer>
     <div class="footer-inner">
       <div class="footer-col" style="flex: 2; min-width: 260px;">
         <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.75rem;">
-          <img src="assets/logo.svg" alt="Sound & Sentence Logo" width="28" height="28">
+          <img src="assets/logo.svg" alt="Sound &amp; Sentence Logo" width="28" height="28">
           <span style="font-family: var(--font-serif); font-weight: 700; color: #FFFFFF; font-size: 1.15rem;">
-            Sound &amp; Sentence <span style="color: var(--coral);">|</span> PTE Prep
+            Sound &amp; Sentence <span style="color: var(--color-champagne);">|</span> PTE Prep
           </span>
         </div>
-        <p style="font-size: 0.9rem; color: #C9D9E4; max-width: 380px; line-height: 1.5;">
-          Evidence-based PTE Academic preparation. Know what to practise next. 
-          Published by Rigour Consulting Australia.
+        <p style="font-size: 0.9rem; color: #BDCAD6; max-width: 380px; line-height: 1.5;">
+          Know what to practise next. Independent PTE Academic preparation published by Rigour Consulting Australia.
         </p>
       </div>
 
       <div class="footer-col">
-        <h4>Navigation</h4>
+        <h4>Overview</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#skills">Four Skills</a></li>
-          <li><a href="index.html#capabilities">Capabilities</a></li>
-          <li><a href="index.html#showcase">App Showcase</a></li>
-          <li><a href="https://rigourconsulting.github.io/Sound-Sentence-PTE-Prep/">GitHub Pages Portal</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#four-skills">Four skills</a></li>
+          <li><a href="#inside-the-app">Inside the app</a></li>
         </ul>
       </div>
 
@@ -303,24 +367,24 @@
         <ul>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms of Service</a></li>
-          <li><a href="support.html">Support &amp; FAQs</a></li>
+          <li><a href="support.html">Candidate Support</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
         <h4>Publisher</h4>
         <ul>
-          <li style="color: #C9D9E4; font-size: 0.9rem;">Rigour Consulting Australia</li>
+          <li style="color: #BDCAD6; font-size: 0.9rem;">Rigour Consulting Australia</li>
           <li><a href="mailto:rigour.consulting@gmail.com">rigour.consulting@gmail.com</a></li>
-          <li style="color: #867A93; font-size: 0.85rem; margin-top: 0.5rem;">Melbourne, Australia</li>
+          <li style="color: #8493A2; font-size: 0.85rem; margin-top: 0.4rem;">Australia</li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
       <p>&copy; 2026 Rigour Consulting Australia. All rights reserved.</p>
-      <p style="margin-top: 0.35rem; font-size: 0.8rem;">
-        PTE Academic is a registered trademark of Pearson Education, Inc. Sound &amp; Sentence is an independent preparation platform.
+      <p style="margin-top: 0.35rem; font-size: 0.82rem; color: #8493A2;">
+        PTE Academic is a registered trademark of Pearson Education, Inc. Sound &amp; Sentence is an independent preparation platform and is not affiliated with, endorsed by, or sponsored by Pearson.
       </p>
     </div>
   </footer>
